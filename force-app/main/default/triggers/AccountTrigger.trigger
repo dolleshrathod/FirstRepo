@@ -5,6 +5,7 @@
 trigger AccountTrigger on Account (
     after insert
 ) {
+    // This Account Trigger Calling
     AccountTriggerHandler handler = new AccountTriggerHandler();
     
     if (Trigger.isAfter && Trigger.isInsert) {

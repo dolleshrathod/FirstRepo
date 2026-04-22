@@ -4,6 +4,7 @@
  */
 public with sharing class AccountTriggerHandler {
     
+    // This is my account trigger handler
     /**
      * Handles after insert operations for Account records
      * Creates an Opportunity for each new Account
